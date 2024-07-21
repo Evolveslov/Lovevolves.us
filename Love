@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovevolves</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4a148c;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4a148c;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4a148c;
+            color: white;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lovevolves</h1>
+    <p>Spreading Love and Kindness Through Art</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#store">Store</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Lovevolves is dedicated to running community art programs globally to help everyone through art and connection therapy. We believe in the power of art to heal and bring people together, fostering a sense of love, kindness, and community. Our programs incorporate art for sale, music, travel, and community events, all aimed at spreading positivity and creative expression.</p>
+</section>
+
+<section id="store">
+    <h2>Store</h2>
+    <div class="product">
+        <h3>Custom Fashion</h3>
+        <p>High-quality, custom-designed fashion pieces.</p>
+    </div>
+    <div class="product">
+        <h3>Dog Leashes and Collars</h3>
+        <p>Stylish and durable leashes and collars for your furry friends.</p>
+    </div>
+    <div class="product">
+        <h3>Yoga Accessories</h3>
+        <p>Unique and personalized yoga mats and accessories.</p>
+    </div>
+    <!-- Add more products as needed -->
+</section>
+
+<section id="events">
+    <h2>Events</h2>
+    <p>Stay tuned for our upcoming events that bring the community together through art, music, and travel. Join us to experience the joy and connection that art brings to our lives.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lovevolves. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
